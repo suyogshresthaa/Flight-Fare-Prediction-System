@@ -1,7 +1,7 @@
 # Flight Price Prediction using Machine Learning
 
 ## Author
-Suyog Shrestha
+Suyog Shrestha  
 Data Science & Business @ Knox College - June 2027
 
 ---
@@ -76,3 +76,8 @@ The final tuned Random Forest model was saved using **pickle** for future use:
 ```python
 with open('flight_price_rf_final_model.pkl', 'wb') as file:
     pickle.dump(best_rf, file)
+```
+
+## Future Improvements
+Save and deploy a complete ML pipeline  
+Experiment with advanced models like XGBoost or LightGBM  
